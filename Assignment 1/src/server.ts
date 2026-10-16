@@ -7,7 +7,7 @@ const port = 3000
 app.use(express.json());
 
 app.get("/", (req: Request, res: Response) => {
-  res.send("Asiignment no: 1 Create a Web Server using ExpressJS and create one API");
+  res.send("Assignment no: 1 Create a Web Server using ExpressJS and create one API");
 });
 
 app.listen(port, () => {
